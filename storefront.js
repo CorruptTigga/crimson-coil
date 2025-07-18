@@ -164,7 +164,7 @@ function applyFilters() {
 // Render all filter groups and their tags as collapsible sections
 function renderFilterGroups() {
   filterContainer.innerHTML = `
-    <button onclick="clearAllFilters()">Clear All</button>
+    <button class="clear-all-btn" onclick="clearAllFilters()">Clear All</button>
     ${Object.entries(filterGroups).map(([group, tags]) => `
       <details open>
         <summary>${group}</summary>
@@ -215,4 +215,12 @@ function renderFeaturedProduct(product) {
       </a>
     </div>
   `;
+}
+
+function toggleFilters(button) {
+  const sidebar = document.getElementById("filter-sidebar");
+  sidebar.classList.toggle("open");
+
+  const arrow = button.querySelector(".arrow");
+  arrow.textContent = sidebar.classList.contains("open") ? "▴" : "▾";
 }

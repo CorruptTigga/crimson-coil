@@ -15,16 +15,19 @@
 
         <nav class="site-nav">
             <div class="nav-content">
-                <a href="index.html" class="nav-brand">Crimson Coil</a>
+                <a href="/" class="nav-brand">Crimson Coil</a>
                 <div class="nav-links">
-                    <a href="index.html">Home</a>
-                    <a href="#storefront">Browse</a>
+                    <a href="/">Home</a>
+                    <a href="/#storefront">Browse</a>
                     <!-- Add more links later like About, Contact -->
                 </div>
             </div>
         </nav>
 
         <main class="storefront-layout">
+            <button class="filter-toggle" onclick="toggleFilters(this)">
+                Filters <span class="arrow">▾</span>
+            </button>
             <aside id="filter-sidebar">
                 <h2>Filter by Tag</h2>
                 <div id="tag-filters"></div>
