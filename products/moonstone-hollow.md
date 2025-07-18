@@ -10,15 +10,21 @@
   ],
   "filters": {
     "Size": ["Apartment", "FC Room"],
-    "Style": ["Rustic", "Lofted"],
-    "Theme": ["Dark"]
+    "Style": ["Rustic", "Lofted", "Cozy"],
+    "Theme": ["Dark", "Fantasy", "Nature"],
+    "Colors": ["Warm Neutrals", "Earth Tones"],
+    "Features": ["Loft", "Library"],
+    "Mood": ["Tranquil", "Inviting", "Romantic"],
+    "Purpose": ["Roleplay", "Reading Nook", "Personal Retreat"]
   }
 }
 -->
 
+<hr style="height: 20px; border-color: transparent;">
+
 Nestled beneath a canopy of stars and surrounded by the quiet hum of nature, Moonstone Hollow offers a tranquil escape from the bustle of Eorzea. Warm wood and cool stone embrace a lofted sanctuary where moonlight dances across cozy furnishings and well-loved tomes. Whether you're curling up with a book, sharing tea by the hearth, or simply watching the leaves sway beyond the window, this hidden nook invites you to rest, reflect, and dream. 
 
-<p style="margin-top: 2rem; font-weight: bold;">Features include:</p>
+<h3 style="margin-top: 10px;">Features include:</h3>
 
 <ul style="padding-left: 1.5rem; margin-top: 0.5rem;">
   <li>Dark wood and stone</li>

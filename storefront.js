@@ -16,7 +16,12 @@ let activeFilters = {}; // Object storing current active filters by group
 // =========================
 const filterGroups = {
   Size: ["Apartment", "FC Room", "Small", "Medium", "Large"],
-  Style: ["Cozy", "Medieval", "Modern", "Rustic", "Elegant"] // Extend as needed
+  Style: ["Rustic", "Modern", "Traditional", "Minimalist", "Lofted", "Cozy", "Industrial"],
+  Theme: ["Dark", "Bright", "Seasonal", "Fantasy", "Nature", "Elegant", "Mystical"],
+  Colors: ["Warm Neutrals", "Cool Neutrals", "Earth Tones", "Bold Colors", "Monochrome", "Pastels"],
+  Features: ["Loft", "Library", "Fireplace", "Aquarium", "Bar/Kitchen", "Garden", "Stage"],
+  Mood: ["Romantic", "Tranquil", "Dramatic", "Whimsical", "Mysterious", "Inviting"],
+  Purpose: ["Roleplay", "Screenshots", "Lounge", "Social Hub", "Reading Nook", "Personal Retreat"]
 };
 
 // =========================
