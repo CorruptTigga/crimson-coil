@@ -109,6 +109,7 @@ footer p {
   text-decoration: none;
   font-weight: bold;
   margin-top: 1rem;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
