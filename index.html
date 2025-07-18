@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Crimson Coil</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <h1>Crimson Coil</h1>
+            <p class="tagline">Immersive designs for your Eorzea housing</p>
+        </header>
+
+        <nav class="site-nav">
+            <div class="nav-content">
+                <a href="index.html" class="nav-brand">Crimson Coil</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="#storefront">Browse</a>
+                    <!-- Add more links later like About, Contact -->
+                </div>
+            </div>
+        </nav>
+
+        <main class="storefront-layout">
+            <aside id="filter-sidebar">
+                <h2>Filter by Tag</h2>
+                <div id="tag-filters"></div>
+            </aside>
+            <div class="products-wrapper">
+                <section id="featured-product"></section>  <!-- Featured goes here -->
+                <section id="storefront"></section>        <!-- Product grid -->
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 Crimson Coil. Inspired by FFXIV.</p>
+        </footer>
+
+        <script src="storefront.js"></script>
+    </body>
+</html>

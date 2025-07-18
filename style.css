@@ -1,0 +1,304 @@
+/* ================================
+   🔧 Base & Reset
+=================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #979082;
+  color: #333;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+/* ================================
+   🧭 Layout: Header & Footer
+=================================== */
+.site-header,
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2a4d69;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #5a799d;
+}
+
+footer p {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* ================================
+   🎯 Buttons
+=================================== */
+.btn {
+  display: inline-block;
+  background-color: #2a4d69;
+  color: #f5f1e9;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #1e3750;
+}
+
+/* ================================
+   🛒 Storefront Grid
+=================================== */
+.storefront-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 600px) {
+  .storefront-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-card-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #2a4d69;
+}
+
+.product-card .tags {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: auto;
+}
+
+/* ================================
+   🧱 Storefront Layout & Filters
+=================================== */
+.storefront-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Sidebar for filters */
+#filter-sidebar {
+  width: 200px;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+
+#filter-sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#tag-filters label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+/* Collapsible filter sections */
+#tag-filters details {
+  margin-bottom: 1rem;
+}
+
+#tag-filters summary {
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+/* ================================
+   🎞️ Carousel (on product page)
+=================================== */
+.image-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  aspect-ratio: 16 / 9;
+}
+
+.image-carousel img.stack-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 0;
+  bottom: 23px;
+  width: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 50;
+  transition: background-color 0.2s;
+}
+
+.carousel-btn:hover {
+  background-color: transparent;
+}
+
+.carousel-btn.prev {
+  left: 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.carousel-btn.next {
+  right: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* ================================
+   🌟 Featured Product
+=================================== */
+#featured-product {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  max-width: 720px;  /* same max width as main content */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-product h2 {
+  color: #2a4d69;
+  margin-bottom: 1rem;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.featured-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.featured-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.featured-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.featured-info strong {
+  font-size: 1.1rem;
+  color: #2a4d69;
+}
+
+/* ================================
+   🧭 Navigation Bar
+=================================== */
+.site-nav {
+  background-color: #2a4d69;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.nav-brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-grow: 1;
+}
