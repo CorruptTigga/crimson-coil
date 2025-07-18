@@ -1,8 +1,8 @@
 <!--meta
 {
   "title": "Moonstone Hollow",
-  "price": "$15",
-  "stripe": "https://buy.stripe.com/test_xyz",
+  "price": "$9.99",
+  "stripe": "https://crimson-coil.lemonsqueezy.com/buy/1d8dbbfa-e5dc-4dec-bdd0-517f60cd90ae",
   "images": [
     "./images/moonstone-hollow-interior-1.png",
     "./images/moonstone-hollow-interior-2.png",
