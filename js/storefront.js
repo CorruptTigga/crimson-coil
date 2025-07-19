@@ -171,7 +171,7 @@ function renderFilterGroups() {
   filterContainer.innerHTML = `
     <button class="clear-all-btn" onclick="clearAllFilters()">Clear All</button>
     ${Object.entries(filterGroups).map(([group, tags]) => `
-      <details open>
+      <details>
         <summary>${group}</summary>
         ${tags.map(tag => {
           const isChecked = activeFilters[group]?.includes(tag);
