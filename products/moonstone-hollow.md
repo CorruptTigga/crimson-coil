@@ -2,7 +2,7 @@
 {
   "title": "Moonstone Hollow",
   "price": "$9.99",
-  "stripe": "https://crimson-coil.lemonsqueezy.com/buy/1d8dbbfa-e5dc-4dec-bdd0-517f60cd90ae",
+  "stripe": "https://crimson-coil.lemonsqueezy.com/buy/d41baecd-0ca2-465b-82d4-2eb1b464ebbc",
   "images": [
     "./images/moonstone-hollow-interior-1.png",
     "./images/moonstone-hollow-interior-2.png",
