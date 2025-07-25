@@ -32,6 +32,8 @@ Nestled beneath a canopy of stars and surrounded by the quiet hum of nature, Moo
   <li>Secluded corners for roleplay or lounging</li>
 </ul>
 
-<h3>Digital Download Disclaimer:</h3>
-This product includes downloadable JSON, Markdown, and plain text files. Due to the nature of digital goods, **all sales are final and non-refundable** once the files have been accessed or downloaded.  
-Please review item details carefully before completing your purchase.
+🌙 *A Note on Your Journey:*  
+This product includes downloadable JSON, Markdown, and plain text files—each a fragment of Moonstone Hollow's charm. As these files are delivered digitally and accessed instantly, **all sales are final and non-refundable** upon download.  
+
+Please ensure the details align with your needs before completing your purchase.  
+**Note:** These files require [RemakePlace](https://example.com/remakeplace) for proper use and functionality. Make sure you have access to this tool before purchasing.
