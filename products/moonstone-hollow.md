@@ -32,7 +32,7 @@ Nestled beneath a canopy of stars and surrounded by the quiet hum of nature, Moo
   <li>Secluded corners for roleplay or lounging</li>
 </ul>
 
-🌙 *A Note on Your Journey:*  
+<h3 style="margin-top: 10px;">🌙 A Note on Your Journey:</h3>
 This product includes downloadable JSON, Markdown, and plain text files—each a fragment of Moonstone Hollow's charm. As these files are delivered digitally and accessed instantly, **all sales are final and non-refundable** upon download.  
 
 Please ensure the details align with your needs before completing your purchase.  
